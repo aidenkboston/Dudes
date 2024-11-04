@@ -1,4 +1,4 @@
-Dudes dude1 = new Dudes(200, 200, 100);
+Dude dude1 = new Dude(200, 200, 100);
 
 void setup() {
   size(400, 400); 
