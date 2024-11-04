@@ -1,10 +1,10 @@
-Dude dude1 = new Dude(200, 200, 100);
+Dude dude1 = new Dude(200, 200, 100, true, true);
 
 void setup() {
   size(400, 400); 
-  fill(0);
+  background(0);
 }
 
 void draw() {
-  dude1.update(200, 200, 100);
+  dude1.update();
 }
