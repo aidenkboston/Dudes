@@ -1,0 +1,14 @@
+public class Dudes {
+  float x1;
+  float y1;
+  float size;
+  
+  public Dudes(float x1, float y1, float size) {
+    this.x1 = x1;
+    this.y1 = y1;
+    this.size = size;
+  }
+  
+  public void update(float x1, float y1, float size) {
+    circle(x1, y1, size);
+  }
