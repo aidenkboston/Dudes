@@ -1,6 +1,10 @@
 # Dudes
-I'm going to mess around with a bunch of dudes!
-
 Hello, this is my file!
-Man I Love Frogs
-This is dudes#1 for clarification 
+
+The goal of this project is to create dudes that bounce around and chase each other. 
+These dudes have a position, size, color, shape, and an affinity with each other. 
+My goal was to keep my code concise without sacraficing functionality, which I believe I achieved pretty well. 
+The xDirection and yDirection parameters are booleans which determine a dudes initial x and y trajectory.
+
+Dude2 will chase Dude1 and they should have effective collisions where Dude1 will bounce off Dude2.
+On each collision a dude will have some sort of change to them such as a change is speed, size, or color. 
